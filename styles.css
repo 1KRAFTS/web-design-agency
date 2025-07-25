@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 252, 250);
+    font-family: Arial, sans-serif; 
+    margin-bottom: 100px;
+}
+.img{
+    height: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+H1{
+    color:black;
+    font-size: 6rem;
+    font-family:oswald, sans-serif;;
+}
+span{
+    color:rgb(111, 17, 173)
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    text-align: center;
+    font-size: 1.07rem;
+    margin-top: 30px;
+}
+.imgs{
+    width:50%;
+    height:100%;
+    margin-right: 20px;
+}
+.text{
+    float:right;
+
+}
+h2{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.beauty{
+    display: inline-flex;
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .img{
+        height: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    h1{
+        font-size:3rem;
+        margin-bottom: 100px;
+
+    }
+    .beauty{
+        display: block;
+    }
+    .div{
+         display: block;
+    }    
+}
+@media screen and (min-width: 768px) 
+{
+    body{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+.cellone{
+    margin-right: 30px;
+}
+.celltwo{
+    margin-right: 30px;
+}
+.cellthree{
+    margin-right: 30px;
+}
